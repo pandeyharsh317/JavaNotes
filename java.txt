@@ -1,0 +1,154 @@
+Author of java james gosling in 1995 developed.
+Vendor : SUN microsystem
+old name : OAK
+present name : java 
+symbol of java : coffee cup with Saucer
+slogan  of java : WORA (write once run anywhere).
+language type : open source
+operating system : any operating system
+developed from : C and C++
+extension : .java, .class, .jar 
+
+************************************** Execution Scenario of java **********************************
+
+
+_______________                            ______________
+|  source code |--------compiler---------> | byte code   |
+|______________|                           |_____________|
+      .java                                       |.class
+                                                 |
+                                         ________|______     ______________
+                                          |    JVM    |_____ |Machine code |______output
+                                          |___________|      |_____________|
+                                          java vertual machine
+
+
+
+
+ *******************************feature of java**************************************************
+
+
+ 1.simple :- java is simple for c and c++ learner ,because  all complexities of C andC++ is reduced in java .  
+ 2.open source :- java is open source that means source code of java is available for user and user can  modify source.
+ 3.Platform Independent :- java is Platform Independent that means you can run java program on any operating system.
+ 4. object oriented :- java programing language is an object oriented programming language.
+ 5. High performance :- The performance of java programming is better than C anc C++.
+ 6.Write once run anywhere
+ 7. Architecture Neutral :- java program is not executed under operating system. java program is executed under java runtimes enviroment (JRE).
+ 9.multithreaded :- java programming language suppports concept of multithreading.
+ 10.wed application development :- you can development application by using java programming language.
+
+
+**********************application developed using java**********************************
+1.desktop application e.g media player , anti-virus... etc 
+2.wed application e.g irctc.co.in.
+3.EPR(Enterprise resource planning) like banking solutoin e.g. finacle.
+4.Embedded system and Robotics.
+5.Game development.
+....
+
+class is blue print of object it is collection of variables and methods.
+
+public is a keyword access modifier.
+static is a modifier.
+void is a keyword and  return type.
+main is method name.
+String it is used to take input from command line.
+system is class.
+out is a object .
+println is a method.
+
+how to take input from user in java?
+scanner Is class in java for inpur in java we use Scanner class object. Scanner is a class available in java.util packages.
+package:- package is a collection of classes, interfaces and sub-package.
+Code :- import java.util.Scanner;
+Classname objectname = new Classname();
+Scanner sc= new Scanner(System.in);
+for int  input:- 
+int a; 
+a =sc.nextInt();
+
+for float input :-
+float b;
+b= sc.nextFloat();
+
+for double input:-
+double b;
+b=sc.nextDouble();
+
+for String input :-
+String name ;
+name =sc.nextLine();
+
+Decision Controls in java :- Decision control are used to decision making.In java programming language there are following types of decision controls:-
+1. if statement 
+2.if-else statement
+3.ladder if else statement
+4.switch statement
+
+1.if statement:- it is keyword which work as decision control.We attach a condition with if block code will executed otherwise no code will be executed.
+
+if(condition){
+      //code
+}
+2. if-else statement:- if - else is  the variration of if statement.we attach a condition with  if statement,if given condition is true then if block code will executed and if given condition is false then else block code will executed .
+if (condition){
+      //code
+}else{
+      //code
+} 
+
+Ternary Operator (?):-Ternary operator is the alternate of if-else,(expression1)?(expression2):(expression3);
+if expression1 is true then expression2 will executed and if expression1 is false then expression3 will executed. 
+
+08/02/2023
+
+ladder if else:- If you have many conditions and you want to execute code based on those conditions,them you can use ladder if-else.
+
+if (condition1){
+
+//code 1 executed
+
+}else if (condition2){
+
+//code2 executed
+
+}else{
+
+//code3 executed
+
+}
+(expression1)?(kuch karenge):(kuch aur karenge);
+
+Switch statement :- switch is keyword,which work as a case control.It is used to menu based program. 
+
+switch (expression) //int or char or String
+{
+      case1:
+      //code
+      break;
+       case2:
+      //code
+      break;
+       case3:
+      //code
+      break;
+      default:
+      //code
+      
+}
+
+
+About the loop control :- If you have a block of code which you want to execute repeatedly up to given condition is true ,then you can use a loop comtrol .in java programming language there are  four types of loops controls:-
+
+1.while loop 
+2.for loop
+3. do-while loop 
+4. for each loop
+
+1.while loop:- while is a keyword  which works as loop control.
+Initialization of loop counter;
+while(condition){
+      //code
+      updation of loop counter
+}

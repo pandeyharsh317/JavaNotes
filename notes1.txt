@@ -1,0 +1,33 @@
+Java Programming
+* Author : James Gosling 
+* Vendor : Sun microsystem
+* Old Name : OAK
+* Present Name : Java
+* Symbol : Coffee Cup with Saucer
+* Slogan : WORA (Write once run any where)
+* Language Type : Open Source 
+* Operating System : Any Operating System
+* Developed From : C and C++
+* Extensions : .java, .class, .jar
+
+Features of Java:-
+1.	Simple:- Java is Simple for C or C++ learner , because all complexities of C and C++ are reduced in java.
+2.	Open Source:- Java is open source that means source code of java is available for user and user can modify source code.
+3.	Platform Independent:- Java is platform independent that means you can run java program on any operating system.
+4.	Object Oriented:- Java programming language is an object oriented programming language.
+5.	High Performance:- The performance of java programming is better than C and c++.
+6.	Write once run anywhere
+7.	Architecture Neutral:- Java program is not executed under operating system. Java program is executed under java runtime environment (JRE).
+8.	Multithreaded:- Java programming language supports concept of multithreading.
+9.	Web Application Development :- You can develop web application by using java programming language.
+
+Applications Developed using Java :-
+1.	Desktop Application e.g. media player, anti-virus .. etc.
+2.	Web application e.g. irctc.co.in.
+3.	ERP (Enterprise Resource planning) like banking solution e.g. Finacle.
+4.	Mobile application development.
+5.	Embedded system and robotics
+6.	Game development.
+
+
+
